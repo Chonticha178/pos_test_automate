@@ -165,8 +165,7 @@ def smart_click_with_scroll(window, criteria, max_scrolls=20, scroll_dist=-10):
     """
     log(f"...ค้นหา '{criteria}' (โหมด V10: Turbo)...")
     
-    loop_limit = max_scrolls + 10 # เผื่อรอบเยอะๆ
-    
+    loop_limit = max_scrolls + 10 # เผื่อรอบเยอะๆs
     for i in range(loop_limit):
         found_element = None
         
